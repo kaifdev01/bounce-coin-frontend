@@ -1,0 +1,86 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin: 20px auto;
+    width: 80%;
+    text-decoration: none;
+
+}
+.logo{
+    font-size: 32px;
+    font-weight: 800;
+}
+.activestyles{
+    color: #3861fb;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+/* .activestyles:hover{
+    transform: scale(1.1);
+    transition: .5s;
+} */
+.inactivestyles{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* .inactivestyles:hover{
+    transform: scale(1.1);
+    transition: .5s;
+} */
+.loginButton{
+    margin-left: 10px;
+
+    border:none;
+    border-radius:10px;
+    outline:none;
+    padding:10px 15px;
+    font-weight:bold;
+    font-size:large;
+    text-decoration:none;
+    cursor:pointer;
+    margin:0 12px 0 12px;
+}
+.loginButton:hover{
+    background-color: #f3f3f3;
+    color: black;
+    transition: .5s;
+}
+.signupButton{
+    border:none;
+    background-color: #3861fb;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size:large;
+    border-radius: 10px;
+
+}
+.signupButton:hover{
+    background-color: #1f4ffd;
+}
+.signoutButton{
+    border:none;
+    margin-left: 10px;
+    background-color: #ea3942;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size:large;
+    border-radius: 10px;
+}
+.signoutButton:hover{
+    background-color: #c01822;
+}
+
+.seprator{
+    background:linear-gradient(to right,transparent,#9ba3c2,transparent);
+    height: 1px;
+    margin-top: 5px;
+}

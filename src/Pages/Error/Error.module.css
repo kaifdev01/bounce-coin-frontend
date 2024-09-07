@@ -1,0 +1,15 @@
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    margin: auto;
+}
+.errorHeader{
+    color:#ea3943;
+}
+.home{
+    color: #3861fb;
+    text-decoration: none;
+}
